@@ -1,64 +1,86 @@
 [
-  { "text": "I fixed the bug. I don’t know how. Don’t touch it.",
-    "mood": "chaos" },
-
-  { "text": "It works. I have no idea why.",
-    "mood": "chaos" },
-
-  { "text": "I refactored the code and now it’s faster and wrong.",
-    "mood": "chaos" },
-
-  { "text": "I write code like I write horror stories — full of unexpected twists.",
-    "mood": "chaos" },
-
-  { "text": "This code was written by me six months ago and I have no memory of it.",
-    "mood": "pain" },
-
-  { "text": "I don’t always break production, but when I do, it’s on a Friday.",
-    "mood": "fun" },
-
-  { "text": "The code is self-documenting. Unfortunately, it speaks a dead language.",
-    "mood": "wisdom" },
-
-  { "text": "One more small fix before bed. Famous last words.",
-    "mood": "pain" },
-
-  { "text": "I changed one line and now nothing works.",
-    "mood": "chaos" },
-
-  { "text": "I tested it. It failed. I tested it again. It passed. Ship it.",
-    "mood": "fun" },
-
-  { "text": "There are two states of a project: working and you touching it.",
-    "mood": "fun" },
-
-  { "text": "The bug only happens when someone is watching.",
-    "mood": "pain" },
-
-  { "text": "I removed one console.log and everything collapsed.",
-    "mood": "chaos" },
-
-  { "text": "I wrote clean code once. Then requirements changed.",
-    "mood": "pain" },
-
-  { "text": "My code does not have bugs, it has character.",
-    "mood": "fun"},
-
-  { "text": "If it compiles, it’s probably fine.",
-    "mood": "wisdom" },
-
-  { "text": "I solved the problem. Then I introduced three new ones.",
-    "mood": "chaos" },
-
-  { "text": "This feature was easy. The last words of every developer.",
-    "mood": "fun" },
-
-  { "text": "The real error was trusting myself.",
-    "mood": "pain" },
-
-  { "text": "I’ll just rewrite it. It’ll be faster this time.",
-    "mood": "pain" },
-
-  { "text": "Being a developer means being the captain of the ship — and occasionally the iceberg.",
-    "mood":"chaos" }
+  {
+    "text": "I fixed the bug. I don’t know how. Don’t touch it.",
+    "mood": "chaos"
+  },
+  {
+    "text": "It works. I have no idea why.",
+    "mood": "chaos"
+  },
+  {
+    "text": "I refactored the code and now it’s faster and wrong.",
+    "mood": "chaos"
+  },
+  {
+    "text": "I write code like I write horror stories — full of unexpected twists.",
+    "mood": "chaos"
+  },
+  {
+    "text": "I changed one line and now nothing works.",
+    "mood": "chaos"
+  },
+  {
+    "text": "I removed one console.log and everything collapsed.",
+    "mood": "chaos"
+  },
+  {
+    "text": "I solved the problem. Then I introduced three new ones.",
+    "mood": "chaos"
+  },
+  {
+    "text": "Being a developer means being the captain of the ship — and occasionally the iceberg.",
+    "mood": "chaos"
+  },
+  {
+    "text": "This code was written by me six months ago and I have no memory of it.",
+    "mood": "pain"
+  },
+  {
+    "text": "One more small fix before bed. Famous last words.",
+    "mood": "pain"
+  },
+  {
+    "text": "The bug only happens when someone is watching.",
+    "mood": "pain"
+  },
+  {
+    "text": "I wrote clean code once. Then requirements changed.",
+    "mood": "pain"
+  },
+  {
+    "text": "The real error was trusting myself.",
+    "mood": "pain"
+  },
+  {
+    "text": "I’ll just rewrite it. It’ll be faster this time.",
+    "mood": "pain"
+  },
+  {
+    "text": "I don’t always break production, but when I do, it’s on a Friday.",
+    "mood": "fun"
+  },
+  {
+    "text": "I tested it. It failed. I tested it again. It passed. Ship it.",
+    "mood": "fun"
+  },
+  {
+    "text": "There are two states of a project: working and you touching it.",
+    "mood": "fun"
+  },
+  {
+    "text": "My code does not have bugs, it has character.",
+    "mood": "fun"
+  },
+  {
+    "text": "This feature was easy. The last words of every developer.",
+    "mood": "fun"
+  },
+  {
+    "text": "The code is self-documenting. Unfortunately, it speaks a dead language.",
+    "mood": "wisdom"
+  },
+  {
+    "text": "If it compiles, it’s probably fine.",
+    "mood": "wisdom"
+  }
 ]
