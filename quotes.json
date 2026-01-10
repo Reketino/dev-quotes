@@ -82,5 +82,9 @@
   {
     "text": "If it compiles, it’s probably fine.",
     "mood": "wisdom"
+  },
+  {
+    "text": "This file should be an entrypoint, not a kitchen counter",
+    "mood": "fun"
   }
 ]
