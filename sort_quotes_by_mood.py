@@ -1,5 +1,6 @@
 import json
 from pathlib import Path
+from typing import TypedDict
 
 # Path of the file if it tries to escape🏃🏻‍➡️
 FILE = Path("quotes.json")
@@ -16,8 +17,18 @@ MOOD_ORDER = {
     "wisdom": 3,
 }
 
+# Quote class defined
+class Quote(TypedDict, total=False):
+    mood: str
+
 #  List sorting
-quotes.sort(key=lambda q: MOOD_ORDER.get(q.get("mood"), 99))
+def mood_key(q: Quote) -> int:
+    mood = q.get("mood")
+    if mood is None:
+       return 99
+    return MOOD_ORDER.get(mood, 99)
+quotes.sort(key=mood_key)
+
 
 # Updates the same file, why write a new file? 
 with FILE.open("w", encoding="utf-8") as f:
