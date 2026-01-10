@@ -76,15 +76,15 @@
     "mood": "fun"
   },
   {
+    "text": "This file should be an entrypoint, not a kitchen counter",
+    "mood": "fun"
+  },
+  {
     "text": "The code is self-documenting. Unfortunately, it speaks a dead language.",
     "mood": "wisdom"
   },
   {
     "text": "If it compiles, it’s probably fine.",
     "mood": "wisdom"
-  },
-  {
-    "text": "This file should be an entrypoint, not a kitchen counter",
-    "mood": "fun"
   }
 ]
