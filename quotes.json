@@ -86,5 +86,9 @@
   {
     "text": "If it compiles, it’s probably fine.",
     "mood": "wisdom"
+  },
+  {
+    "text": "It's a feature not a bug.",
+    "mood": "wisdom"
   }
 ]
