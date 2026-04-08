@@ -22,11 +22,11 @@ class Quote(TypedDict, total=False):
     mood: str
 
 #  List sorting
-def mood_key(q: Quote) -> int:
-    mood = q.get("mood")
-    if mood is None:
-       return 99
-    return MOOD_ORDER.get(mood, 99)
+def mood_key(q: Quote):
+    mood = q.get("mood") or ""
+    mood_rank = MOOD_ORDER.get(mood, 99)
+    text = q.get("text", "").lower()
+    return (mood_rank, text)
 quotes.sort(key=mood_key)
 
 
