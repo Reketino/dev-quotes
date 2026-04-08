@@ -25,7 +25,8 @@ class Quote(TypedDict, total=False):
 def mood_key(q: Quote):
     mood = q.get("mood")
     mood_rank = MOOD_ORDER.get(mood, 99)
-    return 
+    text = q.get("text", "").lower
+    return (mood_rank, text)
 quotes.sort(key=mood_key)
 
 
