@@ -37,4 +37,5 @@ with FILE.open("w", encoding="utf-8") as f:
     f.write("\n")
 
 # Terminal gives you confirmation, as he should
+print(f"Sorted {len(quotes)} quotes🈯")
 print("🛎️ quotes.json has now sorted moods (in-place)")
