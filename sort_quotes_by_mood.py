@@ -20,19 +20,22 @@ MOOD_ORDER = {
 # Quote class defined
 class Quote(TypedDict, total=False):
     mood: str
+    text:str
 
 #  List sorting
 def mood_key(q: Quote):
-    mood = q.get("mood") or ""
-    mood_rank = MOOD_ORDER.get(mood, 99)
-    text = q.get("text", "").lower()
-    return (mood_rank, text)
+    return (
+        MOOD_ORDER.get(q.get("mood")or "", 99),
+        (q.get("text") or "").strip().lower(),
+    )
 quotes.sort(key=mood_key)
 
 
 # Updates the same file, why write a new file? 
 with FILE.open("w", encoding="utf-8") as f:
     json.dump(quotes, f, indent=2, ensure_ascii=False)
+    f.write("\n")
 
 # Terminal gives you confirmation, as he should
+print(f"Sorted {len(quotes)} quotes🈯")
 print("🛎️ quotes.json has now sorted moods (in-place)")
