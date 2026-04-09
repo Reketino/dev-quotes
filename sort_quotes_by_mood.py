@@ -34,6 +34,7 @@ quotes.sort(key=mood_key)
 # Updates the same file, why write a new file? 
 with FILE.open("w", encoding="utf-8") as f:
     json.dump(quotes, f, indent=2, ensure_ascii=False)
+    f.write("\n")
 
 # Terminal gives you confirmation, as he should
 print("🛎️ quotes.json has now sorted moods (in-place)")
