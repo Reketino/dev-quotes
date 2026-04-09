@@ -20,6 +20,7 @@ MOOD_ORDER = {
 # Quote class defined
 class Quote(TypedDict, total=False):
     mood: str
+    text:str
 
 #  List sorting
 def mood_key(q: Quote):
